@@ -12,7 +12,7 @@ void inOrder(Node *root)
     stack<Node*>s;
     Node *curr = root;
     
-    while(curr && !s.empty())
+    while(curr || !s.empty())
     {
         while(curr)
         {
