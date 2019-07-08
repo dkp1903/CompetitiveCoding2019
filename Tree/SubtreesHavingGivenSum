@@ -1,0 +1,25 @@
+int cSWSU(Node *root, int &count, int x)
+{
+    if(!root)
+        return 0;
+    int l = cSWSU(root->left, count, x);
+    int r = cSWSU(root->right, count, x);
+    
+    if(l + r + root->data == x)
+        count++;
+        
+    return (l + r + root->data); 
+}
+int countSubtreesWithSumX(Node* root, int x)
+{
+	if (!root)
+	    return 0;
+	int count = 0;
+	
+	int l = cSWSU(root->left, count, x);
+	int r = cSWSU(root->right, count, x);
+	if(l + r + root->data == x)
+	    count++;
+	    
+	return count;
+}
