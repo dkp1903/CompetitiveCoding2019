@@ -2,3 +2,7 @@ The repository contains topicwise sorted competitive coding questions, important
 
 
 Make sure that the code is well commented, and explained.
+
+
+                                                            - Dushyant Pathak
+                                                            - DA-IICT, Gandhinagar
