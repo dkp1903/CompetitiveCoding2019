@@ -38,5 +38,5 @@ int lps(string s)
             }
         }
     }
-    return k;
+    return maxLength;
 }
