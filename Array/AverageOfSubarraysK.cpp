@@ -1,4 +1,6 @@
   // Given an array of size n, the task is to find the averages of all subarray of size k
+  // Time : O(n)
+  //Space : O(n - k + 1) === O(n)
   
   vector<double> finder (int k, vector<int>a)
   {
